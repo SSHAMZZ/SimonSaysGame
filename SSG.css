@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    font-family: 'Contrail One', sans-serif;;
+}
+.heading{
+    font-size: 2.2rem;
+}
+.level-indicator{
+    font-size: 1.1rem;
+}
+.play-boxes{
+    margin: auto;
+    /* background-color: black; */
+    /* width: 30rem;
+    height: 30rem;
+    padding: 2rem; */
+    display: flex;
+    justify-content: center;
+  
+
+}
+.pb1{
+    background-color: red;
+    height: 30vh;
+    width: 15vw;
+    margin: 1rem;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+    
+}
+.pb2{
+    background-color: blue;
+    height: 30vh;
+    width: 15vw;
+    margin: 1rem;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+  
+}
+.pb3{
+    background-color: greenyellow;
+    height: 30vh;
+    width: 15vw;
+    margin: 1rem;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+  
+}
+.pb4{
+    background-color: yellow;
+    height: 30vh;
+    width: 15vw;
+    margin: 1rem;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+  
+}
+.flash{
+    background-color: white;
+}
+.user-flash{
+    background-color: cyan;
+}
+.game-over{
+    background-color: red;
+}
+.level-up{
+    background-color: greenyellow;
+}
+/* .score-card{
+    height: 2rem;
+    background-color: pink;
+} */
+.highscore-panel{
+    height: 15rem;
+    background-color: aqua;
+    margin: 1.2rem;
+    border-radius:1rem !important ;
+    
+}
